@@ -2,9 +2,13 @@
 import MyImage from "./assets/image1.jpg";
 import MyImage1 from "./assets/image2.jpg";
 import MyImage2 from "./assets/image1.png";
+import MyImage3 from "./assets/image2.png";
 </script>
 
 <template>
+  <div class="absolute top-0 left-0">
+    <img :src="MyImage3" class="w-16 h-14 sm:w-24 sm:h-20" />
+  </div>
   <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
     <div
       class="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2"
